@@ -106,32 +106,6 @@ class MealItem extends StatelessWidget {
                           ],
                         ),
                       ),
-                      // Row(
-                      //   children: [
-                      //     Icon(
-                      //       Icons.work,
-                      //     ),
-                      //     SizedBox(
-                      //       width: 6,
-                      //     ),
-                      //     Text(
-                      //       complexityText,
-                      //     ),
-                      //   ],
-                      // ),
-                      // Row(
-                      //   children: [
-                      //     Icon(
-                      //       Icons.attach_money,
-                      //     ),
-                      //     SizedBox(
-                      //       width: 6,
-                      //     ),
-                      //     Text(
-                      //       priceText,
-                      //     ),
-                      //   ],
-                      // ),
                     ],
                   ),
                 ),

@@ -9,7 +9,7 @@ class GridViews extends StatelessWidget {
       padding: const EdgeInsets.all(20),
       gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
         maxCrossAxisExtent: 200,
-        childAspectRatio: 0.8,
+        childAspectRatio: 2.3,
         crossAxisSpacing: 30,
         mainAxisSpacing: 40,
       ),

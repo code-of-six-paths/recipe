@@ -66,7 +66,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
     imageUrl: 'https://www.ndtv.com/cooks/images/matar%20paneer%20new.jpg',
-    duration: 20,
+    duration: 30,
     ingredients: [
       'Lorem ipsum dolor sit amet.',
       'Lorem ipsum dolor sit amet.',
@@ -100,7 +100,7 @@ const DUMMY_MEALS = const [
     complexity: Complexity.Simple,
     imageUrl:
         'https://i2.wp.com/www.vegrecipesofindia.com/wp-content/uploads/2013/05/mysore-masala-dosa-recipe.jpg',
-    duration: 20,
+    duration: 15,
     ingredients: [
       'Lorem ipsum dolor sit amet.',
       'Lorem ipsum dolor sit amet.',
@@ -130,11 +130,11 @@ const DUMMY_MEALS = const [
       'c1',
     ],
     title: 'Biryani (Veg)',
-    affordability: Affordability.Affordable,
-    complexity: Complexity.Simple,
+    affordability: Affordability.Pricey,
+    complexity: Complexity.Hard,
     imageUrl:
         'https://www.maggi.in/sites/default/files/2019-10/vegetable-biryani-recipe-1082x461.jpg',
-    duration: 20,
+    duration: 120,
     ingredients: [
       'Lorem ipsum dolor sit amet.',
       'Lorem ipsum dolor sit amet.',
@@ -167,7 +167,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
     imageUrl: 'https://i.imgur.com/SKu5AUm.png',
-    duration: 20,
+    duration: 30,
     ingredients: [
       'Lorem ipsum dolor sit amet.',
       'Lorem ipsum dolor sit amet.',
@@ -198,10 +198,10 @@ const DUMMY_MEALS = const [
     ],
     title: 'Noodles',
     affordability: Affordability.Affordable,
-    complexity: Complexity.Simple,
+    complexity: Complexity.Hard,
     imageUrl:
         'https://images.unsplash.com/photo-1602768201544-302a3bf80742?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=697&q=80',
-    duration: 10,
+    duration: 15,
     ingredients: [
       'Lorem ipsum dolor sit amet.',
       'Lorem ipsum dolor sit amet.',
@@ -235,7 +235,7 @@ const DUMMY_MEALS = const [
     complexity: Complexity.Simple,
     imageUrl:
         'https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
-    duration: 10,
+    duration: 20,
     ingredients: [
       'Lorem ipsum dolor sit amet.',
       'Lorem ipsum dolor sit amet.',
@@ -266,10 +266,10 @@ const DUMMY_MEALS = const [
     ],
     title: 'Spring Rolls',
     affordability: Affordability.Affordable,
-    complexity: Complexity.Simple,
+    complexity: Complexity.Challenging,
     imageUrl:
         'https://images.unsplash.com/photo-1515022376298-7333f33e704b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80',
-    duration: 10,
+    duration: 30,
     ingredients: [
       'Lorem ipsum dolor sit amet.',
       'Lorem ipsum dolor sit amet.',
@@ -303,7 +303,7 @@ const DUMMY_MEALS = const [
     complexity: Complexity.Simple,
     imageUrl:
         'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1202&q=80',
-    duration: 45,
+    duration: 15,
     ingredients: [
       'Lorem ipsum dolor sit amet.',
       'Lorem ipsum dolor sit amet.',
@@ -334,10 +334,10 @@ const DUMMY_MEALS = const [
     ],
     title: 'Monster Burger',
     affordability: Affordability.Pricey,
-    complexity: Complexity.Simple,
+    complexity: Complexity.Challenging,
     imageUrl:
         'https://images.unsplash.com/photo-1587841424505-4205a6e73ef7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80',
-    duration: 45,
+    duration: 25,
     ingredients: [
       'Lorem ipsum dolor sit amet.',
       'Lorem ipsum dolor sit amet.',
@@ -371,7 +371,7 @@ const DUMMY_MEALS = const [
     complexity: Complexity.Challenging,
     imageUrl:
         'https://images.unsplash.com/photo-1607290817806-e93c813ff329?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
-    duration: 60,
+    duration: 90,
     ingredients: [
       'Lorem ipsum dolor sit amet.',
       'Lorem ipsum dolor sit amet.',
@@ -402,10 +402,10 @@ const DUMMY_MEALS = const [
     ],
     title: 'Chicken Sausage Pizza',
     affordability: Affordability.Luxurious,
-    complexity: Complexity.Challenging,
+    complexity: Complexity.Hard,
     imageUrl:
         'https://images.unsplash.com/photo-1604467751709-5a39aa857c66?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80',
-    duration: 60,
+    duration: 120,
     ingredients: [
       'Lorem ipsum dolor sit amet.',
       'Lorem ipsum dolor sit amet.',
@@ -435,11 +435,11 @@ const DUMMY_MEALS = const [
       'c4',
     ],
     title: 'Family Pack',
-    affordability: Affordability.Luxurious,
+    affordability: Affordability.Pricey,
     complexity: Complexity.Challenging,
     imageUrl:
         'https://images.unsplash.com/photo-1558701210-136ff9d4b3c3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
-    duration: 60,
+    duration: 90,
     ingredients: [
       'Lorem ipsum dolor sit amet.',
       'Lorem ipsum dolor sit amet.',
@@ -469,7 +469,7 @@ const DUMMY_MEALS = const [
       'c5',
     ],
     title: 'French Fries',
-    affordability: Affordability.Luxurious,
+    affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
     imageUrl:
         'https://images.unsplash.com/photo-1575464362889-408fe193b18f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
@@ -503,11 +503,11 @@ const DUMMY_MEALS = const [
       'c5',
     ],
     title: 'Potato Chips',
-    affordability: Affordability.Luxurious,
-    complexity: Complexity.Simple,
+    affordability: Affordability.Affordable,
+    complexity: Complexity.Challenging,
     imageUrl:
         'https://images.unsplash.com/photo-1528751014936-863e6e7a319c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=633&q=80',
-    duration: 15,
+    duration: 20,
     ingredients: [
       'Lorem ipsum dolor sit amet.',
       'Lorem ipsum dolor sit amet.',
@@ -537,11 +537,11 @@ const DUMMY_MEALS = const [
       'c5',
     ],
     title: 'Roasted Peanuts',
-    affordability: Affordability.Luxurious,
+    affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
     imageUrl:
         'https://images.unsplash.com/photo-1579293675541-10fcb3725a19?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80',
-    duration: 15,
+    duration: 10,
     ingredients: [
       'Lorem ipsum dolor sit amet.',
       'Lorem ipsum dolor sit amet.',
@@ -575,7 +575,7 @@ const DUMMY_MEALS = const [
     complexity: Complexity.Hard,
     imageUrl:
         'https://images.unsplash.com/photo-1575159240102-4331f59433ac?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80',
-    duration: 240,
+    duration: 15,
     ingredients: [
       'Lorem ipsum dolor sit amet.',
       'Lorem ipsum dolor sit amet.',
@@ -606,10 +606,10 @@ const DUMMY_MEALS = const [
     ],
     title: 'Banana Shake',
     affordability: Affordability.Affordable,
-    complexity: Complexity.Hard,
+    complexity: Complexity.Challenging,
     imageUrl:
         'https://images.unsplash.com/photo-1542444592-e6880e286bb9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=611&q=80',
-    duration: 240,
+    duration: 10,
     ingredients: [
       'Lorem ipsum dolor sit amet.',
       'Lorem ipsum dolor sit amet.',
@@ -639,11 +639,11 @@ const DUMMY_MEALS = const [
       'c6',
     ],
     title: 'Oreo Shake',
-    affordability: Affordability.Affordable,
+    affordability: Affordability.Pricey,
     complexity: Complexity.Hard,
     imageUrl:
         'https://images.unsplash.com/photo-1586985289071-36f62f55ce44?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80',
-    duration: 240,
+    duration: 15,
     ingredients: [
       'Lorem ipsum dolor sit amet.',
       'Lorem ipsum dolor sit amet.',
@@ -673,11 +673,11 @@ const DUMMY_MEALS = const [
       'c6',
     ],
     title: 'Pineapple Juice',
-    affordability: Affordability.Affordable,
+    affordability: Affordability.Pricey,
     complexity: Complexity.Hard,
     imageUrl:
         'https://images.unsplash.com/photo-1596392301391-e8622b210bd4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80',
-    duration: 240,
+    duration: 20,
     ingredients: [
       'Lorem ipsum dolor sit amet.',
       'Lorem ipsum dolor sit amet.',
@@ -707,11 +707,11 @@ const DUMMY_MEALS = const [
       'c7',
     ],
     title: 'Black Forest Pastry',
-    affordability: Affordability.Affordable,
-    complexity: Complexity.Simple,
+    affordability: Affordability.Luxurious,
+    complexity: Complexity.Challenging,
     imageUrl:
         'https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=734&q=80',
-    duration: 20,
+    duration: 180,
     ingredients: [
       'Lorem ipsum dolor sit amet.',
       'Lorem ipsum dolor sit amet.',
@@ -741,11 +741,11 @@ const DUMMY_MEALS = const [
       'c7',
     ],
     title: 'Strawberry Pastry',
-    affordability: Affordability.Affordable,
-    complexity: Complexity.Simple,
+    affordability: Affordability.Luxurious,
+    complexity: Complexity.Challenging,
     imageUrl:
         'https://images.unsplash.com/photo-1587080254119-b4499ff689fd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1399&q=80',
-    duration: 20,
+    duration: 120,
     ingredients: [
       'Lorem ipsum dolor sit amet.',
       'Lorem ipsum dolor sit amet.',
@@ -775,11 +775,11 @@ const DUMMY_MEALS = const [
       'c7',
     ],
     title: 'Chocolate Muffins',
-    affordability: Affordability.Affordable,
-    complexity: Complexity.Simple,
+    affordability: Affordability.Luxurious,
+    complexity: Complexity.Hard,
     imageUrl:
         'https://images.unsplash.com/photo-1587052267175-8074af64fb0c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80',
-    duration: 20,
+    duration: 60,
     ingredients: [
       'Lorem ipsum dolor sit amet.',
       'Lorem ipsum dolor sit amet.',
@@ -813,7 +813,7 @@ const DUMMY_MEALS = const [
     complexity: Complexity.Challenging,
     imageUrl:
         'https://images.unsplash.com/photo-1606843046080-45bf7a23c39f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80',
-    duration: 35,
+    duration: 120,
     ingredients: [
       'Lorem ipsum dolor sit amet.',
       'Lorem ipsum dolor sit amet.',
@@ -847,7 +847,7 @@ const DUMMY_MEALS = const [
     complexity: Complexity.Challenging,
     imageUrl:
         'https://upload.wikimedia.org/wikipedia/commons/3/35/Biryani_Home.jpg',
-    duration: 35,
+    duration: 240,
     ingredients: [
       'Lorem ipsum dolor sit amet.',
       'Lorem ipsum dolor sit amet.',
@@ -877,11 +877,11 @@ const DUMMY_MEALS = const [
       'c8',
     ],
     title: 'Hyderabadi Mutton Biryani',
-    affordability: Affordability.Pricey,
-    complexity: Complexity.Challenging,
+    affordability: Affordability.Luxurious,
+    complexity: Complexity.Hard,
     imageUrl:
         'https://c.ndtvimg.com/2019-02/45dlkeqo_mutton-biryani_625x300_27_February_19.jpg',
-    duration: 35,
+    duration: 300,
     ingredients: [
       'Lorem ipsum dolor sit amet.',
       'Lorem ipsum dolor sit amet.',
@@ -948,7 +948,7 @@ const DUMMY_MEALS = const [
     complexity: Complexity.Hard,
     imageUrl:
         'https://www.spiceupthecurry.com/wp-content/uploads/2020/08/gulab-jamun-recipe-1.jpg',
-    duration: 45,
+    duration: 60,
     ingredients: [
       'Lorem ipsum dolor sit amet.',
       'Lorem ipsum dolor sit amet.',
@@ -978,11 +978,11 @@ const DUMMY_MEALS = const [
       'c9',
     ],
     title: 'Ras Malai',
-    affordability: Affordability.Affordable,
+    affordability: Affordability.Pricey,
     complexity: Complexity.Hard,
     imageUrl:
         'https://i2.wp.com/www.rasoimenu.com/wp-content/uploads/2015/07/Dates-Rasmalai-Recipe.jpg?fit=1920%2C1080&ssl=1',
-    duration: 45,
+    duration: 60,
     ingredients: [
       'Lorem ipsum dolor sit amet.',
       'Lorem ipsum dolor sit amet.',
@@ -1012,11 +1012,11 @@ const DUMMY_MEALS = const [
       'c10',
     ],
     title: 'Mix Salad',
-    affordability: Affordability.Luxurious,
+    affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
     imageUrl:
         'https://images.unsplash.com/photo-1571047399553-603e2138b646?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80',
-    duration: 30,
+    duration: 15,
     ingredients: [
       'Lorem ipsum dolor sit amet.',
       'Lorem ipsum dolor sit amet.',
@@ -1046,11 +1046,11 @@ const DUMMY_MEALS = const [
       'c10',
     ],
     title: 'Fruit Salad',
-    affordability: Affordability.Luxurious,
+    affordability: Affordability.Pricey,
     complexity: Complexity.Simple,
     imageUrl:
         'https://images-gmi-pmc.edge-generalmills.com/023f25df-408a-44fc-b74e-be5b1dcd4bdf.jpg',
-    duration: 30,
+    duration: 15,
     ingredients: [
       'Lorem ipsum dolor sit amet.',
       'Lorem ipsum dolor sit amet.',
@@ -1080,11 +1080,11 @@ const DUMMY_MEALS = const [
       'c10',
     ],
     title: 'Vegetable Salad',
-    affordability: Affordability.Luxurious,
+    affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
     imageUrl:
         'https://www.afarmgirlsdabbles.com/wp-content/uploads/2018/07/grilled-vegetable-salad_AFarmgirlsDabbles_AFD-5-1-600x900.jpg',
-    duration: 30,
+    duration: 35,
     ingredients: [
       'Lorem ipsum dolor sit amet.',
       'Lorem ipsum dolor sit amet.',

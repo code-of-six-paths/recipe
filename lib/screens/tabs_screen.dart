@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:social_media_app/widgets/drawer.dart';
+import '../widgets/drawer.dart';
 import './favourites_screen.dart';
 import './category_screen.dart';
 
