@@ -177,7 +177,7 @@ class MealInfo extends StatelessWidget {
           Icons.delete,
         ),
         onPressed: () {
-          Navigator.of(context).pop();
+          Navigator.of(context).pop(mealTitle);
         },
       ),
     );
